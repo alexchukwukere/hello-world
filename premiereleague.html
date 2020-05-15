@@ -2,7 +2,10 @@
   h1 {text-align:center;}
   table { border: 2px solid black; width: 100%;
           border-collapse: collapse;}
-  th, td { border: 1px solid black;text-align:center; }
+  th, td { border: 1px solid black;text-align:center;
+          padding: 5px;}
+  th {background-color: #86a38e;}
+  td {background-color: #88b2f2;}
   div {background-color: #a69392;
   width: 100%;
   height: 100%;
@@ -10,8 +13,11 @@
   font-size: 18px;
   font-weight: bold;}
 </style>
+<div>
 <body>
-  <div>
+  <form>
+    <input type="text" placeholder="search" name="name">
+    <button>Submit!</button>
     <h1>Premiere League</h1>
 <table>
   <tr>
@@ -20,17 +26,17 @@
   <th>points</th>
   </tr>
   <tr>
-    <td>1</td>
+    <td>30</td>
     <td>liverpool</td>
     <td>82</td>
   </tr>
   <tr>
-    <td>2</td>
+    <td>29</td>
     <td>mancity</td>
     <td>57</td>
   </tr>
   <tr>
-    <td>3</td>
+    <td>29</td>
     <td>chelsea</td>
     <td>50</td>
   </tr>
