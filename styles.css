@@ -1,0 +1,43 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+p::selection {
+  color:red;
+  background-color:yellow;
+}
+#list a::before {
+  content: "Click here: ";
+  font-weight: bold;
+}
+button {
+        width: 100px;
+        height: 30px;
+        font-size: 24px;
+        background-color: lightgreen;
+}
+button:hover {
+  background-color: orange;
+}
+
+input[type=text] {background-color:lightgreen;}
+input[type=number] {background-color:#0ff2f2;}
+
+ol {color:black}
+
+p {color:#050c17;}
+  h3 {color:#050c17;
+      text-align:left;}
+  h4 {color:#050c17;}
+
+  div {background-color: white;
+  width: 100%;
+  height: 100%;
+  margin: 5px;
+  padding: 10px;
+  font-family: Arial,sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 30px solid blue;}
+
+#container {background-color: lightgreen;}
+</style>
