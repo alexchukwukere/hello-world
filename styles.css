@@ -37,7 +37,19 @@ p {color:#050c17;}
   font-family: Arial,sans-serif;
   font-size: 18px;
   font-weight: bold;
-  border: 30px solid blue;}
+  border: 15px solid blue;}
 
 #container {background-color: lightgreen;}
+
+.grid {display:flex;
+flex-wrap: wrap;}
+
+.grid > div {
+  background-color: springgreen;
+  font-size: 18px;
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+}
+
 </style>
