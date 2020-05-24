@@ -37,19 +37,31 @@ p {color:#050c17;}
   font-family: Arial,sans-serif;
   font-size: 18px;
   font-weight: bold;
-  border: 15px solid blue;}
+  border: 0px solid blue;}
 
 #container {background-color: lightgreen;}
 
-.grid {display:flex;
+.flex {display:flex;
 flex-wrap: wrap;}
 
-.grid > div {
+.flex > div {
   background-color: springgreen;
   font-size: 18px;
-  margin: 20px;
+  margin: 30px;
   padding: 20px;
   width: 200px;
 }
+
+.grid {
+  display:grid;
+  background-color: springgreen;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  padding: 20px;
+  grid-template-columns: 200px 200px auto;
+}
+.screen-only {
+background-color: white;
+font-size: 18px;}
 
 </style>
