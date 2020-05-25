@@ -2,30 +2,31 @@
 <html>
   <head>
     <title>My Webpage</title>
-
+    <link rel="stylesheet" href="maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+    <style>
+    @media print {
+      .screen-only {
+        display: none;
+      }
+    }
+     .screen-only {display:flex;
+     flex-wrap: wrap;}
+
+     .screen-only > #container {
+       background-color: springgreen;
+       font-size: 20px;
+       margin: 20px;
+       padding: 20px;
+       width: 200px;
+     }
+    </style>
 
     <header>
       <div id="container">
-<style>
-@media print {
-  .screen-only {
-    display: none;
-  }
-}
- .screen-only {display:flex;
- flex-wrap: wrap;}
 
- .screen-only > #container {
-   background-color: springgreen;
-   font-size: 20px;
-   margin: 20px;
-   padding: 20px;
-   width: 200px;
- }
-</style>
   <nav class="screen-only">
       <ul>
         <li><a href="https://talksport.com/">Talksport Home page</a></li>
@@ -34,18 +35,19 @@
         <li><a href="https://talksport.com/index/teams/">Teams</a></li>
       </ul>
     </nav>
+
   </div>
 
 <style>
 
 @media screen and (min-width: 500px) {
-h1::before {
+#header::before {
    content:"Hello, world!";
  }
 }
 
-@media screen and (max-width: 499px) {
-h1::before {
+@media screen and (max-width: 500px) {
+#header::before {
    content:"Hello!";
  }
 }
@@ -53,7 +55,9 @@ h1::before {
 </style>
 
     <div>
-    <h1 style="color:red;text-align:center;">Let's talkSPORT.</h1>
+    <h1 id="header" style="color:red;text-align:center;">Let's talkSPORT.</h1>
+    </div>
+    <div>
     <form>
       <input type="text" placeholder="talkSport username" name="name">
       <input type="password" placeholder="password" name="password">
