@@ -27,13 +27,13 @@ Contains tags like <html> <nav> <head> <title> <link rel="stylesheet" href="styl
 <input type="number"> <A HREF=""</A> <h1> <h2> <h3> <h4> <input type="radio"> <div> <style> <ol> <Ul> <li> <form> <datalist> <option value> <p> and <body>.
 
 * premiereleague.HTML-
-Contains tags like <style> <h1> <link rel="stylesheet" href="styles.css"> <body>
+Contains tags like <h1> <link rel="stylesheet" href="styles.css"> <body>
 <img src=""> <form> <input type="text"> <input type="password">
 <A HREF=""</A>
 <A HREF=""> <table> <tr> <th> <td> <div class="">
 
 * divisionone.HTML-
-Contains tags like <style> <link rel="stylesheet" href="styles.css"> <body> <img src=""> <A HREF=""> <form> <input type="text"> <input type="number"> <input type="password"> <button> <h1> <h3> <table> <th> <tr> <td> <div class="">
+Contains tags like <link rel="stylesheet" href="styles.css"> <body> <img src=""> <A HREF=""> <form> <input type="text"> <input type="number"> <input type="password"> <button> <h1> <h3> <table> <th> <tr> <td> <div class="">
 
 * divisiontwo.HTML
 Each page is linked to a styles.css stylesheet. It also contains a stylesheet file "stylesheet.css".
