@@ -24,12 +24,12 @@ This project is written in HTML 5 <!DOCTYPE html>. It comprises a total of four 
 * index.HTML-
 Contains tags like <html> <nav> <head> <title> <link rel="stylesheet" href="styles.css"> <img src=""> <div id=""> <h1 id=""> <datalist id="">
 <ul id=""> <input type="text"> <input type="password">
-<input type="number"> <A HREF="https://google.com">Google search</A> <h1> <h2> <h3> <h4> <input type="radio"> <div> <style> <ol> <Ul> <li> <form> <datalist> <option value> <p> and <body>.
+<input type="number"> <A HREF=""</A> <h1> <h2> <h3> <h4> <input type="radio"> <div> <style> <ol> <Ul> <li> <form> <datalist> <option value> <p> and <body>.
 
 * premiereleague.HTML-
 Contains tags like <style> <h1> <link rel="stylesheet" href="styles.css"> <body>
 <img src=""> <form> <input type="text"> <input type="password">
-<A HREF="https://google.com">Google search</A> <A HREF="index.html">HOME</A>
+<A HREF=""</A>
 <A HREF=""> <table> <tr> <th> <td> <div class="">
 
 * divisionone.HTML-
